@@ -2,7 +2,7 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("MADE IN INDIA");
+		System.out.println("MADE in INDIA");
 	}
 
 }
