@@ -1,15 +1,8 @@
-pipeline {
-  agent {
-    docker {
-      image 'maven:3.3.9'
-    }
+public class Hello {
 
-  }
-  stages {
-    stage('build') {
-      steps {
-        sh 'mvn --version'
-      }
-    }
-  }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("MADE IN INDIA");
+	}
+
 }
