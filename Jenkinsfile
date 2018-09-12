@@ -7,7 +7,7 @@ pipeline {
              scannerHome = tool 'SonarScanner';
         }
      withSonarQubeEnv('SonarQube 6.7.5') {
-         sh "${scannerHome}/opt/sonar" 
+         sh "${scannerHome}/opt/sonar-scanner-3.2.0.1227-linux" 
     }
 
     }
