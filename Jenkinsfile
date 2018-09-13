@@ -6,7 +6,6 @@ pipeline {
              sh  'mvn clean install'
             }
         }
-                node {
   stage('SCM') {
     git 'https://github.com/balaji-tkr/Hello-App02'
   }
@@ -17,6 +16,6 @@ pipeline {
       sh "${scannerHome}/opt/sonar/lib/scanner"
     }
   }
-}
+
     }
  }
