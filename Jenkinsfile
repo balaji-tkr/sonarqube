@@ -3,7 +3,7 @@ pipeline {
         stages {
                 stage('SCM')
                 {
-                        git 'https://github.com/balaji-tkr/sonarqube.git'
+                        git 'https://github.com/balaji-tkr/sonarqube/blob/master/Jenkinsfile.git'
                 }
                 stage('mvn install')
                 {
